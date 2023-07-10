@@ -1,4 +1,49 @@
 body{
     font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;    
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    padding: 10px;
+}
+section{
+    display: flex;
+    padding: 10px;
+}
+.name-color{
+    color: olivedrab;
+}
+.border-line{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 15%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.top-banner{
+    background-image: url(Image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.webtag-border{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10%;
 }
